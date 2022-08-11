@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Layout } from "components";
 
 export const CadastroProdutos: React.FC = () => {
-  const [sku, setSku] = useState("");
-  const [preco, setPreco] = useState("");
-  const [nome, setNome] = useState("");
-  const [desc, setDesc] = useState("");
+  const [sku, setSku] = useState<string>("");
+  const [preco, setPreco] = useState<string>("");
+  const [nome, setNome] = useState<string>("");
+  const [desc, setDesc] = useState<string>("");
 
 
 
